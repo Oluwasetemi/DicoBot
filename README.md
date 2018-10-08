@@ -4,11 +4,11 @@ WhatsApp DicoBot is a dictionary bot powered by Twilio WhatsApp API and Google D
 
 When you search a word, you get the word meaning and it's usage. It's so fast and on point. This is how to beat your grammarian friends who bombard you with jaw threatening words. :laughing:
 
-Our DicoBot can be found here: [https://yusadolat.github.io/whatsbot/](https://yusadolat.github.io/whatsbot/)
+Our DicoBot can be found here: [Official Webpage](https://yusadolat.github.io/whatsbot/)
 
 ## Building and Contributing
 
-### Building 
+### Building
 #### Clone Repository
 ```sh
 $ git clone https://github.com/Yusadolat/DicoBot.git && cd DicoBot
