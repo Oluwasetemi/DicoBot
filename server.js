@@ -1,3 +1,4 @@
+require('dotenv').config({path: 'variable.env'})
 const express = require('express');
 const app = express();
 const request = require('request');
@@ -26,7 +27,7 @@ app.post('/incoming', (req, res) => {
       console.log('body:', body["word"]);
       var example;
       var define;
-      var synonyms; 
+      var synonyms;
       if (_.has(body, 'meaning.adjective') === true) {
         define = body["meaning"]["adjective"][0]["definition"]
         example = body["meaning"]["adjective"][0]["example"]
@@ -50,7 +51,7 @@ app.post('/incoming', (req, res) => {
         console.log("Sorry, No Result Found !");
       }
 
-      
+
 
 
       var msg = twiml.message(`*${body["word"]}*
